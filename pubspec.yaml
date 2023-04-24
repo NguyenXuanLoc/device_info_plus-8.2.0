@@ -9,24 +9,12 @@ issue_tracker: https://github.com/fluttercommunity/plus_plugins/labels/device_in
 flutter:
   plugin:
     platforms:
-      android:
-        package: dev.fluttercommunity.plus.device_info
-        pluginClass: DeviceInfoPlusPlugin
-      ios:
-        pluginClass: FLTDeviceInfoPlusPlugin
-      linux:
-        dartPluginClass: DeviceInfoPlusLinuxPlugin
-      web:
-        pluginClass: DeviceInfoPlusWebPlugin
-        fileName: src/device_info_plus_web.dart
-      macos:
-        pluginClass: DeviceInfoPlusMacosPlugin
       windows:
         dartPluginClass: DeviceInfoPlusWindowsPlugin
 
 dependencies:
-#  device_info_plus_platform_interface: ^7.0.0
-  ffi: ^1.1.2
+  device_info_plus_platform_interface: ^7.0.0
+#  ffi: ^1.1.2
 #  file: ^6.0.0
   flutter:
     sdk: flutter
